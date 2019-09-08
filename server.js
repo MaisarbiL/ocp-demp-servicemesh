@@ -1,7 +1,6 @@
 'use strict';
 const express = require('express');
 const os = require('os');
-
 const uuid = require('uuid/v4');
 const pino = require('pino');
 const pinoExpress = require('express-pino-logger');
