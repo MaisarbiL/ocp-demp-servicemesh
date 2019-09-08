@@ -4,7 +4,6 @@ const os = require('os');
 const uuid = require('uuid/v4');
 const pino = require('pino');
 const pinoExpress = require('express-pino-logger');
-// run npm i <package name>
 const logger = pino({
   level: process.env.LOG_LEVEL || 'info'
 });
