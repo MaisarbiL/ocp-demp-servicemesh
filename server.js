@@ -1,5 +1,5 @@
 // Frontend Application
-use strict';
+'use strict';
 const express = require('express');
 const os = require('os');
 const uuid = require('uuid/v4');
