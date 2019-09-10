@@ -1,4 +1,3 @@
-// Frontend Application
 // Develop Branch
 'use strict';
 const express = require('express');
